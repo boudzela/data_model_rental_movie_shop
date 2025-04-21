@@ -1,0 +1,92 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.13">
+  <diagram name="Page-1" id="s2K_nMJZjF3idkyLSry7">
+    <mxGraphModel dx="1283" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object label="Customer" id="y3ixa2gtlaRu2vrzm_rA-23">
+          <mxCell style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="100" y="155" width="160" height="170" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="y3ixa2gtlaRu2vrzm_rA-24" value="PK customer_id (integer)&lt;br&gt;PK phone number (text)&lt;br&gt;name (text)&lt;br&gt;&lt;div&gt;email (text)&lt;/div&gt;&lt;div&gt;balance (float)&lt;/div&gt;&lt;div&gt;movies_in_rent (integer)&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="y3ixa2gtlaRu2vrzm_rA-23">
+          <mxGeometry y="50" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="y3ixa2gtlaRu2vrzm_rA-58" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;entryX=-0.015;entryY=0.377;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.029;exitY=0.148;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="y3ixa2gtlaRu2vrzm_rA-23" source="y3ixa2gtlaRu2vrzm_rA-24">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="2.7200000000000273" y="64.99999999999997" as="sourcePoint" />
+            <mxPoint x="7.599999999999909" y="304.99" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-80" y="65" />
+              <mxPoint x="-277.44" y="57.599999999999994" />
+              <mxPoint x="-170.8" y="113.60000000000002" />
+              <mxPoint x="-300.8" y="123.60000000000002" />
+              <mxPoint x="-210.8" y="213.60000000000002" />
+              <mxPoint x="-190.8" y="63.599999999999994" />
+              <mxPoint x="-257.44" y="63.599999999999994" />
+              <mxPoint x="-184.40000000000003" y="-70.4" />
+              <mxPoint x="-277.44" y="143.60000000000002" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y3ixa2gtlaRu2vrzm_rA-31" value="Coupon" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="380" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="y3ixa2gtlaRu2vrzm_rA-32" value="PK coupon_id&amp;nbsp; (integer)&lt;br&gt;FK customer_id (integer)&lt;br&gt;percent (integer)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="y3ixa2gtlaRu2vrzm_rA-31">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="y3ixa2gtlaRu2vrzm_rA-64" value="PK coupon_id&amp;nbsp; (integer)&lt;br&gt;FK customer_id (integer)&lt;br&gt;percent (integer)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="y3ixa2gtlaRu2vrzm_rA-31">
+          <mxGeometry y="120" width="160" as="geometry" />
+        </mxCell>
+        <mxCell id="y3ixa2gtlaRu2vrzm_rA-33" value="Rental" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="240" width="170" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="y3ixa2gtlaRu2vrzm_rA-34" value="PK rental_id (integer)&lt;br&gt;FK customer_id (integer)&lt;br&gt;FK movie_id (integer)&lt;div&gt;date_issued (date)&lt;/div&gt;&lt;div&gt;date_returned (date)&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;FK coupon_id (integer)&lt;/div&gt;&lt;div&gt;charge (float)&amp;nbsp;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="y3ixa2gtlaRu2vrzm_rA-33">
+          <mxGeometry y="50" width="170" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="y3ixa2gtlaRu2vrzm_rA-35" value="Movie" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="180" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="y3ixa2gtlaRu2vrzm_rA-36" value="PK movie_id (integer)&lt;br&gt;name (text)&lt;div&gt;year (integer)&lt;br&gt;status (text)&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="y3ixa2gtlaRu2vrzm_rA-35">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="y3ixa2gtlaRu2vrzm_rA-37" value="Rental rate&amp;nbsp;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="50" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="y3ixa2gtlaRu2vrzm_rA-38" value="PK FK movie_id (integer)&lt;div&gt;PK date (date)&lt;/div&gt;&lt;div&gt;daily rate change (float)&amp;nbsp;&amp;nbsp;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="y3ixa2gtlaRu2vrzm_rA-37">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="y3ixa2gtlaRu2vrzm_rA-59" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;exitX=1.026;exitY=0.075;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="265.0000000000001" y="214.5" as="sourcePoint" />
+            <mxPoint x="335" y="315.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="285" y="194.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y3ixa2gtlaRu2vrzm_rA-61" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERzeroToOne;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="270" y="460" as="sourcePoint" />
+            <mxPoint x="332" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y3ixa2gtlaRu2vrzm_rA-62" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToOne;startArrow=ERmandOne;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.314;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="y3ixa2gtlaRu2vrzm_rA-36" target="y3ixa2gtlaRu2vrzm_rA-34">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="500" y="540" as="sourcePoint" />
+            <mxPoint x="600" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y3ixa2gtlaRu2vrzm_rA-63" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;rounded=0;entryX=0.989;entryY=0.166;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.009;exitY=0.157;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="y3ixa2gtlaRu2vrzm_rA-36" target="y3ixa2gtlaRu2vrzm_rA-38">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="490" y="200" as="sourcePoint" />
+            <mxPoint x="590" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y3ixa2gtlaRu2vrzm_rA-65" value="&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 18px;&quot;&gt;Rental movies shop&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot; size=&quot;3&quot;&gt;Logical data model&amp;nbsp;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Crow&#39;s feet notation&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot; size=&quot;3&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;draw.io&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="500" width="290" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
