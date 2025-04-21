@@ -1,6 +1,6 @@
 # data_model_rental_movie_shop
 
-0. Description
+1. Description
    
 This is a project about designing the conceptual model, the logical model, the physical model, and finally the database for a video rental application.
 
