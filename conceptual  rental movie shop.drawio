@@ -149,7 +149,7 @@
             <mxPoint x="620" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7OqduelqmPpx-q8XnIWb-74" value="calculates&amp;nbsp;" style="shape=rhombus;double=1;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+        <mxCell id="7OqduelqmPpx-q8XnIWb-74" value="uses" style="shape=rhombus;double=1;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="511" y="230" width="79" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7OqduelqmPpx-q8XnIWb-77" value="gets&amp;nbsp;" style="shape=rhombus;double=1;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
@@ -254,7 +254,7 @@
             <mxPoint x="512" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eQLQSzjAtMzbYq9gAk9k-23" value="makes" style="shape=rhombus;double=1;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="eQLQSzjAtMzbYq9gAk9k-23" value="generates&amp;nbsp;" style="shape=rhombus;double=1;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="410" y="330" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eQLQSzjAtMzbYq9gAk9k-27" value="" style="endArrow=none;html=1;rounded=0;entryX=0.854;entryY=1.11;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="7OqduelqmPpx-q8XnIWb-42">
