@@ -32,4 +32,7 @@ Revenue per day, month and year
 
 ![Image](https://github.com/user-attachments/assets/fa65bc6f-7e95-48bf-89c1-305cfdf25b67)
 
-3. Created its logical model 
+3. Created its logical model
+
+![image](https://github.com/user-attachments/assets/6f91d080-4c67-43f0-935f-bb24482a411b)
+
