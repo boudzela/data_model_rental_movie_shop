@@ -29,4 +29,5 @@ Revenue per day, month and year
 
 
 2. Created a conceptual model (Chen notation) via draw.io
-3. Create a logical model  (Crow's feet) via draw.io
+   ![Image](https://github.com/user-attachments/assets/fa65bc6f-7e95-48bf-89c1-305cfdf25b67)
+4. Create a logical model  (Crow's feet) via draw.io
