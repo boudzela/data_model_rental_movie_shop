@@ -30,7 +30,7 @@ Revenue per day, month and year
 
 2. Created its conceptual model 
 
-![Image](https://github.com/user-attachments/assets/fa65bc6f-7e95-48bf-89c1-305cfdf25b67)
+![image](https://github.com/user-attachments/assets/eccc6347-8ea1-4de8-8857-ed226bf402c7)
 
 3. Created its logical model
 
