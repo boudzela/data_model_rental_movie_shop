@@ -28,6 +28,8 @@ Top customers
 Revenue per day, month and year
 
 
-2. Created a conceptual model (Chen notation) via draw.io
-   ![Image](https://github.com/user-attachments/assets/fa65bc6f-7e95-48bf-89c1-305cfdf25b67)
-4. Create a logical model  (Crow's feet) via draw.io
+2. Created its conceptual model 
+
+![Image](https://github.com/user-attachments/assets/fa65bc6f-7e95-48bf-89c1-305cfdf25b67)
+
+3. Created its logical model 
