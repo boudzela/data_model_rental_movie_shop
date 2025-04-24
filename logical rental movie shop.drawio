@@ -59,7 +59,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="y3ixa2gtlaRu2vrzm_rA-65" value="&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 18px;&quot;&gt;Rental movies shop&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot; size=&quot;3&quot;&gt;Logical data model&amp;nbsp;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Crow&#39;s feet notation&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot; size=&quot;3&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;draw.io&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="530" y="490" width="293" height="70" as="geometry" />
+          <mxGeometry x="530" y="470" width="293" height="70" as="geometry" />
         </mxCell>
         <mxCell id="9Lf0QPpLqfE-UD8IVxj_-1" value="Email" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="10" width="160" height="120" as="geometry" />
