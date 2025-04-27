@@ -49,6 +49,19 @@ Revenue per day, month and year
 
 4. Physical model
    Process:
-   1. Map logical entities and attributes to physical tables and columns, define data types and constraints   
+   1. Map logical entities and attributes to physical tables and columns, define columns data types (varchar, int(4), enum) and their properties (PK, NN, UQ, AI, G, Default), comment to explain the meaning of columns
+   2. Add relationships (mind identifying and non-identifying)  
+   3. Look into referential integrity constraints (what should happen to the foreign key if the primary key is updated or deleted)
+   4. Revise indexes    
+   5. Add business rules: columns constraints (CHECK), calculated values
+--- 
+   7. Look into triggers  
+   8. Create privileges
+   9. Design views and stored procedures
+---
+      
+  
+![image](https://github.com/user-attachments/assets/7a705a56-743c-4231-9294-fb058846073b)
+
    
 
