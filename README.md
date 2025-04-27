@@ -30,7 +30,7 @@ Revenue per day, month and year
 
 # 2. Conceptual model
 
-      Process:  
+   Process:
    1. Collect requirements
    2. Create ER diagram:  
       2.1. identify entities and their attributes (weak entity, single / multu-valued / derived attributes), define PKs  
