@@ -67,7 +67,8 @@ Revenue per day, month and year
    9. Design views and stored procedures
 
   
-![image](https://github.com/user-attachments/assets/7a705a56-743c-4231-9294-fb058846073b)
+![image](https://github.com/user-attachments/assets/03c76349-8fdd-4dd2-b98f-eada6131515e)
+
 
    
 
