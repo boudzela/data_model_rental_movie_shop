@@ -1,5 +1,5 @@
 data_model_rental_movie_shop
----
+
 1. Description
 ---
 This is a project about designing the conceptual model, the logical model, the physical model, and finally the database for a video rental application.
@@ -27,7 +27,7 @@ Top movies
 Top customers  
 Revenue per day, month and year
 
----
+
 2. Conceptual model
 ---
       Process:
@@ -39,7 +39,7 @@ Revenue per day, month and year
       
 ![image](https://github.com/user-attachments/assets/eccc6347-8ea1-4de8-8857-ed226bf402c7)
 
----
+
 3. Logical model
 ---
    Process:
@@ -49,7 +49,7 @@ Revenue per day, month and year
 
 ![image](https://github.com/user-attachments/assets/6f91d080-4c67-43f0-935f-bb24482a411b)
 
----
+
 4. Physical model
 ---
    Process:
