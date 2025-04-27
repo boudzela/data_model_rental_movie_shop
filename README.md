@@ -23,15 +23,15 @@ It is possible that a customer returns the movies they’ve rented in multiple v
 
 We need to be able to track the:
 
-Top movies
-Top customers
-Revenue per day, month and year
+/Top movies
+/Top customers
+/Revenue per day, month and year
 
 
 2. Conceptual model
       Process:
    1. Collect requerements
-   2. Creat ER diagram:
+   2. Create ER diagram:
       2.1. identify entities and their attributes (weak entity, single / multu-valued / derived attributes), define PKs 
       2.2. Indentify relationship in general 
    3. Present to stakeholers for feedabck, refine if needs till approved
