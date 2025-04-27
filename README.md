@@ -21,11 +21,11 @@ We issue discount coupons from time to time. The customer can bring a coupon whe
 
 It is possible that a customer returns the movies they’ve rented in multiple visits.
 
-We need to be able to track the:
+We need to be able to track the:  
 
-/Top movies
-/Top customers
-/Revenue per day, month and year
+Top movies  
+Top customers  
+Revenue per day, month and year
 
 
 2. Conceptual model
