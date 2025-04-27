@@ -29,6 +29,7 @@ Revenue per day, month and year
 
 
 2. Conceptual model
+   -
       Process:
    1. Collect requirements
    2. Create ER diagram:  
@@ -39,7 +40,7 @@ Revenue per day, month and year
 ![image](https://github.com/user-attachments/assets/eccc6347-8ea1-4de8-8857-ed226bf402c7)
 
 3. Logical model
-
+   -
    Process:
    1. Review conceptual entities and their attributes, define implementation-independent types of atributes (integer, float, text)  
    2.  Add PKs and FKs, specify relationships  
@@ -48,6 +49,7 @@ Revenue per day, month and year
 ![image](https://github.com/user-attachments/assets/6f91d080-4c67-43f0-935f-bb24482a411b)
 
 4. Physical model
+   -
    Process:
    1. Map logical entities and attributes to physical tables and columns, define columns data types (varchar, int(4), enum) and their properties (PK, NN, UQ, AI, G, Default), comment to explain the meaning of columns
    2. Add relationships (mind identifying and non-identifying)  
