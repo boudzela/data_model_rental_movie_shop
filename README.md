@@ -1,7 +1,7 @@
 data_model_rental_movie_shop
--
+---
 1. Description
-   -
+---
 This is a project about designing the conceptual model, the logical model, the physical model, and finally the database for a video rental application.
 
 Requirements can be found below, and should be sufficient for modeling the data in the database.
@@ -27,9 +27,9 @@ Top movies
 Top customers  
 Revenue per day, month and year
 
-
+---
 2. Conceptual model
-   -
+---
       Process:
    1. Collect requirements
    2. Create ER diagram:  
@@ -39,8 +39,9 @@ Revenue per day, month and year
       
 ![image](https://github.com/user-attachments/assets/eccc6347-8ea1-4de8-8857-ed226bf402c7)
 
+---
 3. Logical model
-   -
+---
    Process:
    1. Review conceptual entities and their attributes, define implementation-independent types of atributes (integer, float, text)  
    2.  Add PKs and FKs, specify relationships  
@@ -48,20 +49,23 @@ Revenue per day, month and year
 
 ![image](https://github.com/user-attachments/assets/6f91d080-4c67-43f0-935f-bb24482a411b)
 
+---
 4. Physical model
-   -
+---
    Process:
    1. Map logical entities and attributes to physical tables and columns, define columns data types (varchar, int(4), enum) and their properties (PK, NN, UQ, AI, G, Default), comment to explain the meaning of columns
    2. Add relationships (mind identifying and non-identifying)  
    3. Look into referential integrity constraints (what should happen to the foreign key if the primary key is updated or deleted)
    4. Revise indexes    
    5. Add business rules: columns constraints (CHECK), calculated values
---- 
+
+
+
+
    7. Look into triggers  
    8. Create privileges
    9. Design views and stored procedures
----
-      
+
   
 ![image](https://github.com/user-attachments/assets/7a705a56-743c-4231-9294-fb058846073b)
 
