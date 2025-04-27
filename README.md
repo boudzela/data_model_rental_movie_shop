@@ -28,11 +28,27 @@ Top customers
 Revenue per day, month and year
 
 
-2. Created its conceptual model 
-
+2. Conceptual model
+      Process:
+   1. Collect requerements
+   2. Creat ER diagram: 
+   2.1. identify entities and their attributes (weak entity, single / multu-valued / derived attributes), define PKs 
+   2.2. Indentify relationship in general 
+   3. Present to stakeholers for feedabck, refine if needs till approved
+      
 ![image](https://github.com/user-attachments/assets/eccc6347-8ea1-4de8-8857-ed226bf402c7)
 
-3. Created its logical model
+3. Logical model
+
+   Process:
+   1. Review conceptual entities and their attributes, define implementation-independent types of atributes (integer, float, text)
+   2.  Add PKs and FKs, specify relationships
+   3.  Add some constraints ( unique, business rules by check)  
 
 ![image](https://github.com/user-attachments/assets/6f91d080-4c67-43f0-935f-bb24482a411b)
+
+4. Physical model
+   Process:
+   1. Map logical entities and attributes to physical tables and columns, define data types and constraints 
+   
 
