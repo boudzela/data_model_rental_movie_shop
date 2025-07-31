@@ -1,12 +1,27 @@
  # data_model_rental_movie_shop
 
-# 1. Description
+## Files:  
+[db_dump.sql](https://github.com/boudzela/data_cleaning/blob/9d895ec4d10a73bcf100f70e0becc7827c2dd76c/indian_sales/db_dump.sql)- conceptual model, draw.io 
+[data_cleaning_indian_sales_script.sql](https://github.com/boudzela/data_cleaning/blob/1cd451d09177e53a4bb2cf586d2d5356981fac83/indian_sales/data_cleaning_indian_sales_script.sql)-  logical modelm draw.io
+[db_indian_sales.sql](https://github.com/boudzela/data_cleaning/blob/1cd451d09177e53a4bb2cf586d2d5356981fac83/indian_sales/db_indian_sales.sql) - phisycal model, mysql workbench 
+-  sql script of the databasa
+-  explanation of the database created, includes the table Audit and triggers
+-  some queries that can be performed on the db 
+## Objective:  
+This project focuses on sql techniques for data cleaning. The goal of this project is to build on the cleaned dataset
+
+## Skills gained:  
+Triggers  
+Indexes  
+Users and privilegies   
+GROUP_CONCAT()  
+
+
+# 1. Description and requirements
 
 This is a project about designing the conceptual model, the logical model, the physical model, and finally the database for a video rental application.
 
-Requirements can be found below, and should be sufficient for modeling the data in the database.
-
-Requirements
+Requirements:
 This database will be used at a video rental store. We need different levels of permissions for different users. The store manager should be able to add/update/delete the list of movies. They will be in charge of setting the daily rental rate. Cashiers should have a read-only view of the list of movies. They should be able to manage the list of customers and create invoices.
 
 At check out, a customer brings one or more movies. The cashier looks up a customer by their phone number or id. If the customer is a first-time customer, the cashier asks their full name, email and phone number, and then registers them in the system. The cashier then scans the movies the customer has brought to check out and records them in the system. Each movie has a 10 digit barcode printed on the cover.
@@ -16,12 +31,6 @@ When the customer returns to the store, they’ll bring the movies they rented. 
 We issue discount coupons from time to time. The customer can bring a coupon when returning the movies. Each coupon can be applied to only one movie, only one coupon can be applied to one movie. 
 
 It is possible that a customer returns the movies they’ve rented in multiple visits.
-
-We need to be able to track the:  
-Top movies  
-Top customers  
-Revenue per day, month and year
-
 
 # 2. Conceptual model
 
@@ -51,18 +60,16 @@ Revenue per day, month and year
    1. Map logical entities and attributes to physical tables and columns, define columns data types (varchar, int(4), enum) and their properties (PK, NN, UQ, AI, G, Default), comment to explain the meaning of columns
    2. Add relationships (mind identifying and non-identifying)  
    3. Look into referential integrity constraints (what should happen to the foreign key if the primary key is updated or deleted)
-   4. Revise indexes    
-   5. Add business rules: columns constraints (CHECK), calculated values
-
-
-
-
-   7. Look into triggers  
-   8. Create privileges
-   9. Design views and stored procedures
+   4. Add business rules: columns constraints (CHECK), calculated values
+   5. Revise indexes  
+   7. Look into triggers
+   8. Design views and stored procedures 
+   9. Create users and privileges
 
   
-![image](https://github.com/user-attachments/assets/03c76349-8fdd-4dd2-b98f-eada6131515e)
+  
+<img width="1213" height="799" alt="image" src="https://github.com/user-attachments/assets/4cc7bb0c-72d6-4124-840a-1b4b4f9d6262" />
+
 
 
    
