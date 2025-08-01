@@ -3,7 +3,7 @@
 ## Files:    
 
 rental_conceptual.drawio - conceptual model, draw.io  
-rental_logical.drawio -  logical model draw.io, db menegement system independent  
+rental_logical.drawio -  logical model draw.io, db management system independent  
 rental_physical.mbw - physical model, mysql workbench   
 rental_schema+populate.sql - sql script of the database, including indexes, triggers and creating new users, and queries to populate it  
 rental_doc - explanation of the database created  
