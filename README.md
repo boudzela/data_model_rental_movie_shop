@@ -1,12 +1,12 @@
  # data_model_rental_movie_shop
 
 ## Files:  
-conceptual rental movie shop.drawio - conceptual model, draw.io 
-conceptual  rental movie shop.drawio -  logical modelm draw.io
-logical rental movie shop.drawio - phisycal model, mysql workbench 
-rental_schema+populate.sql -  sql script of the database, including indexes, triggers and creating new users, and queries to populate it
--  explanation of the database created
-rental_queries.sql -  some queries that can be performed on the db
+conceptual rental movie shop.drawio - conceptual model, draw.io  
+conceptual  rental movie shop.drawio -  logical modelm draw.io  
+logical rental movie shop.drawio - phisycal model, mysql workbench   
+rental_schema+populate.sql -  sql script of the database, including indexes, triggers and creating new users, and queries to populate it  
+-  explanation of the database created  
+rental_queries.sql -  some queries that can be performed on the db  
 - 
 ## Objective:  
 This project focuses on sql techniques for data cleaning. The goal of this project is to build on the cleaned dataset
