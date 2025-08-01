@@ -13,10 +13,11 @@ rental_queries.sql - some queries that can be performed on the db
 This project focuses on the creating of db from scratch
 
 ## Skills gained:  
-Triggers  
+Triggers (+ Audit table for changes in logs in table Rental and Payment)   
 Indexes  
 Users and privilegies   
 GROUP_CONCAT()  
+
 
 # 1. Description and requirements
 
