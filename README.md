@@ -68,9 +68,8 @@ It is possible that a customer returns the movies they’ve rented in multiple v
    8. Design views and stored procedures 
    9. Create users and privileges
 
-  
-  
-<img width="1213" height="799" alt="image" src="https://github.com/user-attachments/assets/4cc7bb0c-72d6-4124-840a-1b4b4f9d6262" />
+  <img width="1205" height="807" alt="image" src="https://github.com/user-attachments/assets/3c81a0f2-5763-4845-aad5-3ff42fa3e3cf" />
+
 
 
 
