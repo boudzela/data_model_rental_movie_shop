@@ -21,7 +21,7 @@ GROUP_CONCAT()
 
 # 1. Description and requirements
 
-This is a project about designing the conceptual model, the logical model, the physical model, and finally the database for a video rental application.
+This is a project about designing the conceptual model, the logical model, the physical model, and finally the database for a video rental store.
 
 Requirements:
 This database will be used at a video rental store. We need different levels of permissions for different users. The store manager should be able to add/update/delete the list of movies. They will be in charge of setting the daily rental rate. Cashiers should have a read-only view of the list of movies. They should be able to manage the list of customers and create invoices.
